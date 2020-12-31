@@ -21,7 +21,7 @@ As a general workflow, it is recommended you use the Horizontal and Vertical sli
 
 Although adjusting the margin sliders after adjusting Individual Margins will cause Individual Margins to update, the Individual Margin numbers will not represent their in-code values until the Dictionary is closed and re-opened (or the inspector window switches to another node and back). Clicking on the `Dictionary (size 4)` in the inspector twice to close and open the contents. It is my hope that the "Use Individual Margins" toggle is sufficient for having control over these variables without losing information in the process.
 
-#### Issues
+## Issues
 
 The inclusion of the "Use Individual Margins" is a hacky solution to mask the fact that the "Individual Margins" Dictionary isn't automatically updated when the two sliders are used. I attempted to make a system where "Use Individual Margins" unchecked itself whenever the sliders were moved for the sake of usability, but this created more confusion because this checkbox also could not be updated (without refreshing the window) to reflect the real state of the variables. I would love to have help figuring out a good solution for this problem.
 
