@@ -1,19 +1,21 @@
 # Godot-PercentMarginContainer
-A simpler, faster-to-use MarginContainer inspired by CSS.
+A simpler, faster-to-use MarginContainer that uses percentages rather than pixels. Inspired by CSS.
 
 PercentMargin gives you two sliders to adjust the horizontal and vertical margins based on a percentage rather than an absolute pixel value. The size of the children will adjust appropriately as this container gets resized.
 
-#### Variables
+## Variables
 
 **Horizontal Margin** - A slider that changes the multiplier of the children's horizontal margin. The slider goes from 0.000 to 1.000 in steps of 0.001. Use individual margins for more precision if needed.
 
 **Vertical Margin** - A slider that changes the multiplier of the children's vertical margin. The slider goes from 0.000 to 1.000 in steps of 0.001. Use individual margins for more precision if needed.
 
-**Individual Margins** - A dictionary that allows each margin multiplier: `left`, `right`, `top`, `bottom`, to be adjusted as needed. The changes made in this dictionary will not take effect until "Use Individual Margins" is checked. **I reccomend you close this dictionary once you are finished adjusting its values.** The dictionary values will not accurately update if "Use Individual Margins" is unchecked and the sliders are used once again.
+**Individual Margins** - A dictionary that allows each margin multiplier: `left`, `right`, `top`, `bottom`, to be adjusted as needed. The changes made in this dictionary will not take effect until "Use Individual Margins" is checked.
+
+Note: I reccomend you close this dictionary once you are finished adjusting its values. The dictionary values will not accurately update if "Use Individual Margins" is unchecked and the sliders are used once again.
 
 **Use Individual Margins** - A checkbox that toggles which numbers the PercentMargin uses as the margins for its children. Checking this box will use the numbers kept in the Individual Margins dictionary, while unchecking this box will refer to the slider values. Keeping this box checked will prevent the sliders from updating the Individual Margins.
 
-#### Notes
+## Notes
 
 As a general workflow, it is recommended you use the Horizontal and Vertical sliders first, open the dictionary, click "Use Individual Margins", adjust the dictionary as needed, then close the dictionary when done. If you need to use the sliders again, uncheck "Use Individual Margins".
 
