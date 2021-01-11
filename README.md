@@ -5,9 +5,9 @@ SliderMargin gives you two sliders to adjust the horizontal and vertical margins
 
 ## Variables
 
-**Horizontal Margin** - A slider that changes the multiplier of the children's horizontal margin. The slider goes from 0.000 to 1.000 in steps of 0.001. Use individual margins for more precision if needed.
+**Horizontal Margin** - A slider that changes the multiplier of the children's horizontal margin. The slider goes from 0.000 to 1.000 in steps of 0.001.
 
-**Vertical Margin** - A slider that changes the multiplier of the children's vertical margin. The slider goes from 0.000 to 1.000 in steps of 0.001. Use individual margins for more precision if needed.
+**Vertical Margin** - A slider that changes the multiplier of the children's vertical margin. The slider goes from 0.000 to 1.000 in steps of 0.001.
 
 ## Notes
 
