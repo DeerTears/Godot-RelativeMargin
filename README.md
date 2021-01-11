@@ -1,5 +1,5 @@
 # Godot-SliderMargin
-An easier-to-use Control node container, with a margin that expands and shrinks relative to the container's size. Perfect for CSS nerds.
+An easier-to-use MarginContainer that expands and shrinks the margin relative to the container's size. Perfect for CSS nerds.
 
 SliderMargin gives you two sliders to adjust the horizontal and vertical margins based on a percentage rather than an absolute pixel value. The size of the children will adjust appropriately as this container gets resized.
 
