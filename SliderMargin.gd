@@ -10,14 +10,12 @@ func _notification(what):
 		self._on_sort_children()
 
 func edit_horizontal_margin(slider_input:float):
-	if Engine.is_editor_hint():
-		horizontal_margin = slider_input
-		_on_sort_children()
+	horizontal_margin = slider_input
+	_on_sort_children()
 
 func edit_vertical_margin(slider_input:float):
-	if Engine.is_editor_hint():
-		vertical_margin = slider_input
-		_on_sort_children()
+	vertical_margin = slider_input
+	_on_sort_children()
 
 func _on_sort_children():
 	var child_count = get_child_count()
