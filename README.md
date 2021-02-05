@@ -1,5 +1,5 @@
 # Godot-RelativeMargin
-An easier-to-use MarginContainer that expands and shrinks the margin relative to the container's size. Perfect for CSS nerds.
+A container that adjusts its children relative to its own size. Creates a relative, percent-based margin using the rect_size property. Perfect for CSS nerds.
 
 RelativeMargin gives you two sliders to adjust the horizontal and vertical margins based on a percentage rather than an absolute pixel value. The size of the children will adjust appropriately as this container gets resized.
 
