@@ -1,6 +1,6 @@
 tool
 extends Container
-class_name SliderMargin # A container with a margin that expands and shrinks relative to the container's size. Perfect for CSS nerds.
+class_name RelativeMargin # A container that adjusts its children relative to its own size. Creates a relative, percent-based margin using the rect_size property.
 
 export (float, 0.0, 1.0, 0.001) var horizontal_margin = 1.0 setget edit_horizontal_margin
 export (float, 0.0, 1.0, 0.001) var vertical_margin = 1.0 setget edit_vertical_margin
