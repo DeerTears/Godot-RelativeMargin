@@ -1,6 +1,8 @@
 # Godot-RelativeMargin
 A Godot UI container that applies a relative, percent-based margin to its children. Features easy-to-use sliders instead of absolute pixel values. Perfect for CSS nerds.
 
+![](demonstration_01.gif)
+
 RelativeMargin gives you two sliders to adjust the horizontal and vertical margins based on a percentage rather than an absolute pixel value. The size of the children will adjust appropriately as this container gets resized.
 
 After applying the margins, this container then maximizes the size of its children and centers them.
